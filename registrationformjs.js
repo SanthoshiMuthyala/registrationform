@@ -9,7 +9,7 @@ document.getElementById("registrationForm").addEventListener("submit", function(
   });
   
   // Send data via SMTP using Formspree (replace YOUR_EMAIL_ADDRESS with your actual email)
-  fetch('https://formspree.io/YOUR_EMAIL_ADDRESS', {
+  fetch('https://formspree.io/muthyalasanthoshi479@gmail.com', {
     method: 'POST',
     body: JSON.stringify(data),
     headers: {
